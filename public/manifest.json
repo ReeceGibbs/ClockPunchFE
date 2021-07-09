@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ClockPunch",
+  "name": "ClockPunch",
   "icons": [],
   "start_url": ".",
   "display": "standalone",

@@ -1,17 +1,13 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Container from '@material-ui/core/Container'
-import Button from '@material-ui/core/Button'
+import './style/style.scss'
 import Footer from './components/Footer'
 import Logo from './images/icons/coffee-break.png'
-
+import Menu from './components/Menu'
 
 function App() {
   return (
     <div className="App">
-      <Container maxWidth="sm" className="main-container">
-        <Button variant="contained" id="new-log-btn">New Log</Button>
-      </Container>
+      <Menu />
       <Footer text="ClockPunch" logo={Logo}/>
     </div>
   );
